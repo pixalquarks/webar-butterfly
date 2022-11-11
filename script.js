@@ -31,7 +31,7 @@ function loadAnimatedModel(
       const mainObj = current_obj.children[0];
       console.log(mainObj);
       const textureLoader = new THREE.TextureLoader();
-      const alphaTexture = textureLoader.load("models/alphaMap.jpg");
+      const alphaTexture = textureLoader.load("models/alphamap.jpg");
 
       const texture = textureLoader.load("models/texture.jpg");
       const normal = textureLoader.load("models/normal.jpg");
