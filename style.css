@@ -1,0 +1,11 @@
+#ARButton {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgba(41, 40, 40, 0.5) !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
